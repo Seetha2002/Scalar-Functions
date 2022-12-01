@@ -1,0 +1,8 @@
+YYYY - Full Year in numbers
+YEAR - year spelled out(in english)
+MM   - Two digit value of month
+MONTH - full name of month
+MON - three letter abbrevation of month
+DY- three letter abbrevation of day of the week
+DAY - Full name of the day of the week
+DD- Numeric day of the month
