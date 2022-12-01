@@ -1,0 +1,15 @@
+Pseudocolumn: A pseudo-column behaves like a table column but is not actually stored in the table. You can select from pseudo-columns, but you cannot insert, 
+update, or delete their values. A pseudo-column is also similar to a function without arguments. 
+
+ROWNUM: Oracle engine maintains the number of each record inserted by users in table. By the help of ROWNUM clause we can access the data according to the record 
+inserted. 
+
+Example: 
+SELECT * FROM EMP WHERE ROWNUM <= 3; 
+
+ROWID:For each row in the database, the ROWID pseudocolumn returns a row\’s address. The ROWID contains 3 informations about row address: 
+FileNo : FileNo means Table Number.
+DataBlockNo : DataBlockNo means the space assigned by the oracle SQL engine to save the record.
+RecordNo : Oracle engine maintains the record number for each record.
+Example:
+SELECT ROWID, ename FROM emp WHERE deptno = 20;
