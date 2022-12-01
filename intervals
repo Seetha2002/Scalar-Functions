@@ -1,0 +1,9 @@
+INTERVAL
+Measures the difference between two points in time. Intervals can be positive or negative. The INTERVAL data type is SQL:2008 compliant, and supports interval qualifiers that are divided into two major subtypes:
+
+Year-month: Span of years and months
+Day-time: Span of days, hours, minutes, seconds, and fractional seconds
+Intervals are represented internally as some number of microseconds and printed as up to 60 seconds, 60 minutes, 24 hours, 30 days, 12 months, and as many years as necessary. You can control the output format of interval units with SET INTERVALSTYLE and SET DATESTYLE.
+
+Syntax
+INTERVAL 'interval-literal' [ interval-qualifier ] [ (p) ]
