@@ -1,0 +1,8 @@
+SELECT ename,
+       TO_CHAR (hire_date, 'MONTH DD, YYYY') HIRE_DATE,
+	   TO_CHAR (sal, '$99999.99') Salary
+FROM emp
+WHERE deptno=20;
+
+SELECT TO_DATE('January 15, 1989, 11:00 A.M.',  'Month dd, YYYY, HH:MI A.M.',  'NLS_DATE_LANGUAGE = American')
+FROM DUAL;
