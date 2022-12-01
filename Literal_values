@@ -1,0 +1,29 @@
+The terms literal and constant value are synonymous and refer to a fixed data value. For example, 'JACK', 'BLUE ISLAND', and '101' are all character literals;
+5001 is a numeric literal. Character literals are enclosed in single quotation marks so that Oracle can distinguish them from schema object names.
+
+Types of Literals:
+Text Literals
+Integer Literals
+Numeric Literals
+Interval Literals
+
+Text Literals
+Text specifies a text or character literal. You must use this notation to specify values whenever 'text' or char appear in expressions, conditions, 
+SQL functions, and SQL statements in other parts of this reference. This reference uses the terms text literal and character literal interchangeably.
+
+Numeric Literals
+Use numeric literal notation to specify fixed and floating-point numbers.
+
+Integer Literals
+You must use the integer notation to specify an integer whenever integer appears in expressions, conditions, SQL functions, and SQL statements
+described in other parts of this reference.
+
+Interval Literals
+An interval literal specifies a period of time. You can specify these differences in terms of years and months, or in terms of days, hours, minutes, and seconds.
+Oracle Database supports two types of interval literals, YEAR TO MONTH and DAY TO SECOND. Each type contains a leading field and may contain a trailing field. The leading field defines the basic unit of date or time being measured. The trailing field defines the smallest increment of the basic unit being considered. For example, a YEAR TO MONTH interval considers an interval of years to the nearest month. A DAY TO MINUTE interval considers an interval of days to the nearest minute.
+If you have date data in numeric form, then you can use the NUMTOYMINTERVAL or NUMTODSINTERVAL conversion function to convert the numeric data into interval values.
+Interval literals are used primarily with analytic functions.
+
+
+
+
