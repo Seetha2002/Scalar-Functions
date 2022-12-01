@@ -1,0 +1,28 @@
+Example fro SUM() Function:
+SELECT SUM(sal)
+FROM emp;
+
+Example for COUNT() Function:
+SELECT COUNT(ename)
+FROM TableName
+WHERE deptno=20;
+
+Example for AVG() FUnction:
+SELECT AVG(sal)
+FROM emp;
+
+Example MIN():
+SELECT MIN(sal)
+FROM emp;
+
+Example for MAX():
+SELECT MAX(sal)
+FROM emp;
+
+Example for FIRST():
+SELECT FIRST(empno)
+FROM emp;
+
+Example for LAST():
+SELECT LAST(deptno)
+FROM emp;
